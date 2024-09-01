@@ -34,7 +34,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
     
-repo_url: https://github.com/agorakit/agorakit
+repo_url: https://github.com/agorakit/documentation
 plugins:
   - privacy
   - offline
