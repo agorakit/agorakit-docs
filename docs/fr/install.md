@@ -7,6 +7,12 @@ NOTE : **Essayer Agorakit sans l'installer**
 
     Continuez à lire si vous souhaitez installer une instance d'Agorakit sur votre propre serveur.
 
+
+## Utiliser Yunohost
+Si vous voulez un moyen plus simple d'auto-héberger Agorakit, vous pouvez utiliser le [Yunohost](https://yunohost.org/) [package](https://apps.yunohost.org/app/agorakit)
+- Installer Yunohost sur un serveur
+- Installer le paquet Agorakit
+
 ## Exigences
 
 Vous avez besoin d'un bon fournisseur d'hébergement web qui fournit les éléments suivants :
@@ -30,7 +36,7 @@ Ceci est parfaitement standard et documenté ici : https://laravel.com/docs/mast
 
     git clone https://github.com/agorakit/agorakit
 
-Cela créera un répertoire `agorakit` dans le chemin courant.
+Ceci créera un répertoire `agorakit` dans le chemin courant.
 
 ### Créer le fichier .env
 Tous les paramètres sont stockés dans un fichier .env. Ce fichier n'est pas fourni dans le dépôt Git, parce qu'il est spécifique à votre installation, et parce que vous ne voulez pas que votre configuration soit écrasée lors d'une mise à jour :-)
@@ -62,7 +68,7 @@ DB_USERNAME=root // login de mysql
 DB_PASSWORD= // mot de passe de mysql
 
 CACHE_DRIVER=file // driver à utiliser pour la mise en cache
-SESSION_DRIVER=file // pilote à utiliser pour stocker les sessions
+SESSION_DRIVER=file // pilote à utiliser pour le stockage des sessions
 QUEUE_DRIVER=sync // pilote à utiliser pour les files d'attente
 ```
 
@@ -85,7 +91,7 @@ MAIL_NOREPLY=noreply@localhost // pas d'adresse de réponse pour les messages de
 MAPBOX_TOKEN=null // Créer un compte Mapbox et générer un jeton pour permettre la géolocalisation et l'affichage des cartes.
 ```
 
-ASTUCE : Vous devez disposer d'un serveur de courrier électronique opérationnel pour pouvoir vérifier tout compte utilisateur enregistré. Si vous ne pouvez pas vérifier votre compte utilisateur, vous pouvez toujours mettre la colonne `verified` à `1` dans la table `users`.
+ASTUCE : Vous devez disposer d'un serveur de courrier électronique opérationnel pour pouvoir vérifier tout compte d'utilisateur enregistré. Si vous ne pouvez pas vérifier votre compte utilisateur, vous pouvez toujours mettre la colonne `verified` à `1` dans la table `users`.
 
 
 ### Installer les paquets

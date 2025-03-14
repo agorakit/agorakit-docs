@@ -6,14 +6,14 @@ NOTE : Nouveaux langages, meilleure formulation, nouvelles sections, plus de vis
 
 ## Comment contribuer ?
 - Créer un compte Github
-- Créer un dépôt Agorakit (Fork)
+- Créer un compte Github (Fork) sur le dépôt Agorakit
 - Editez les fichiers de documentation dans le répertoire /docs/.
 - Créez une pull request pour demander à ce que vos changements soient fusionnés
 
 CONSEIL : L'utilisation de [Visual Studio Code] (https://code.visualstudio.com/) pour travailler sur du code et des fichiers markdown est une option raisonnablement simple. Vous disposez en outre d'une interface utilisateur intégrée pour l'intégration de git et de github, ce qui est intéressant pour les débutants.
 
 ## Comment construire la documentation ?
-Installez mkdocs material et quelques plugins.
+Installer mkdocs material et quelques plugins.
 
     pip install -r requirements.txt
 

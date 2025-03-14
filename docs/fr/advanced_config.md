@@ -3,7 +3,7 @@
 Cette étape supplémentaire vous permet d'avoir une boîte aux lettres pour chaque groupe afin que les membres puissent envoyer des messages par courriel pour créer des discussions et répondre aux courriels des discussions pour créer de nouveaux commentaires.
 
 ! !! note
-    Le support des emails entrants est expérimental mais utilisé sur plusieurs instances. Il est possible que vous rencontriez des bogues, veuillez les signaler si cela se produit dans votre installation.
+    Le support des emails entrants est expérimental mais utilisé sur plusieurs instances. Il se peut que vous rencontriez des bogues, veuillez les signaler si cela se produit dans votre installation.
 
 
 - Vous avez besoin d'une adresse email sur un serveur supportant l'imap. Il doit s'agir d'une adresse "catch all" sur un sous-domaine (ou même sur un domaine) ou d'un serveur supportant l'adressage "+" (gmail par exemple le permet).

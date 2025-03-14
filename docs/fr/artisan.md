@@ -2,7 +2,7 @@
 
 Agorakit fournit quelques commandes [artisan](https://laravel.com/docs/7.x/artisan) utiles :
 
-- `agorakit:checkmailbox` Vérifier le serveur email imap configuré pour permettre la fonctionnalité de postage par email
+- `agorakit:checkmailbox` Vérifie le serveur email imap configuré pour permettre la fonctionnalité de postage par email
 - `agorakit:cleanupdatabase` Nettoie la base de données, supprime pour toujours les modèles supprimés et les utilisateurs non vérifiés de plus de 30 jours.
 - `agorakit:convertfiles` Convertit les fichiers de l'ancien stockage basé sur le chemin plat vers le nouveau stockage, en remettant leur nom de fichier initial et en déplaçant le fichier vers le répertoire public. Utilisez ceci **une fois** si vous avez déjà des fichiers sur votre installation et si votre installation est antérieure à novembre 2016.
 - `agorakit:convertfolderstotags` Convertit tous les dossiers au nouveau système basé sur les tags. Ajouter les tags représentant le dossier parent à chaque fichier.

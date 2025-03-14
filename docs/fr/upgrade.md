@@ -1,7 +1,7 @@
 # Mise à jour d'Agorakit
 Il est important de maintenir une installation d'Agorakit à jour. Le processus est sûr
 
-Nous essayons de garder la branche master toujours dans un bon état de fonctionnement (c'est ce qu'on appelle un modèle de "rolling release").
+Nous essayons de maintenir la branche master toujours dans un bon état de fonctionnement (c'est ce qu'on appelle un modèle de "rolling release").
 
 Cela signifie que les tests sont réussis et que vous obtenez les dernières fonctionnalités directement à partir de la branche master.
 

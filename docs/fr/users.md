@@ -1,40 +1,40 @@
 # Types d'utilisateurs
 
-Agorakit dispose de différents types d'utilisateurs. Les voici par ordre de permissions, des plus étendues aux plus restreintes : 
+Agorakit propose différents types d'utilisateurs. Les voici, dans l'ordre des permissions, de la plus étendue à la plus restreinte :
 
-## Administrateur.trice d'instance
-Il s'agit d'une personne qui dispose de tous les droits d'accès à une instance (installation) d'Agorakit. Cette personne peut tout faire : 
-- accéder à tous les groupes y compris les groupes secrets
-- modifier les réglages de l'installation
-- modifier et effacer n'importe quel contenu
+## Administrateur de l'instance
+Utilisateur ayant tous les droits d'accès à une instance d'Agorakit (installation). Cette personne peut tout faire :
+- accéder à tous les groupes, y compris les groupes secrets
+- modifier les paramètres de l'installation
+- modifier et supprimer tout contenu
 
 
-## Administrateur.trice de groupe
-Toute personne créant un groupe devient automatiquement administrateur de ce groupe. Cela permet de :
-- modifier les réglages du groupe y compris les permissions des membres
-- accéder à la liste complète des participants y compris leur adresse mail
-- promouvoir n'importe quel membre au statut d'admin
-- changer le statut de n'importe quel membre y compris le sortir du groupe
-- modifier et effacer n'importe quel contenu du groupe
+## Administrateur du groupe
+Toute personne qui crée un groupe en devient automatiquement l'administrateur. Cela vous permet de :
+- modifier les paramètres du groupe, y compris les droits des membres
+- d'accéder à la liste complète des participants, y compris les adresses e-mail
+- promouvoir n'importe quel membre au statut d'administrateur
+- modifier le statut d'un membre, y compris le retirer du groupe
+- modifier et supprimer tout contenu du groupe
 
-## Membre d'un groupe
-Toute personne membre d'un groupe dispose au minimum de la permission de voir l'ensemble du contenu du groupe. Elle peut en plus, en fonction des permissions définies pour le groupe en question :
+## Membre du groupe
+Tout membre d'un groupe a au moins le droit de voir tout le contenu du groupe. Il peut également, en fonction des autorisations définies pour le groupe en question :
 - créer des discussions
-- créer des événements à l'agenda
+- créer des événements de calendrier
 - ajouter des fichiers
 - inviter de nouveaux participants
 
 ## Membre invité
-Dans le cas d'un groupe fermé : quand un utilisateur a été invité par mail à rejoindre un groupe, il reçoit le status d'invité. Dès qu'il confirme la demande, il devient membre effectif du groupe.
+Dans le cas d'un groupe fermé : lorsqu'un utilisateur a été invité par e-mail à rejoindre un groupe, il reçoit le statut d'invité. Dès qu'il confirme la demande, il devient membre effectif du groupe.
 
-## Candidat d'un groupe
-Quand une personne demande à rejoindre un groupe fermé, elle a le statut de candidat. Un des administrateurs du groupe doit accepter ou refuser sa candidature.
+## Candidat au groupe
+Lorsqu'une personne demande à rejoindre un groupe fermé, elle reçoit le statut de candidat. L'un des administrateurs du groupe doit accepter ou rejeter la demande.
 
-## Désenregistré / supprimé
+## Désinscrit / supprimé
 Ce statut est attribué aux personnes qui ont supprimé leur compte de l'instance Agorakit.
 
-## A refusé
-Ce statut est attribué aux personnes qui ont refusé une invitation à rejoindre le groupe. Il est fortement conseillé de ne pas les recontacter à propos du groupe, selon leur souhait, sauf bien entendu si il s'agit d'une fausse manoeuvre de leur part :-)
+## Refusé
+Ce statut est attribué aux personnes qui ont décliné une invitation à rejoindre le groupe. Nous vous conseillons vivement de ne pas les recontacter à propos du groupe, comme ils le souhaitent, à moins bien sûr qu'il ne s'agisse d'une fausse manœuvre de leur part :-)
 
-## Blacklisté
+## Liste noire
 Ce statut est attribué à une personne qui ne peut plus rejoindre le groupe.

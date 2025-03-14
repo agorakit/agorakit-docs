@@ -4,20 +4,19 @@
 
 Créez un ou plusieurs groupes. Un groupe de bienvenue et un groupe de test sont souvent utiles.
 
-En fonction du type de communauté que vous souhaitez créer, vous avez à votre disposition différents types de groupes.
+Selon le type de communauté que vous souhaitez créer, plusieurs types de groupes sont disponibles.
 
-### Les groupes publics
-Ces groupes sont ouverts à tout le monde, et leur contenu est public. N'importe qui peut se créer un compte sur l'instance et rejoindre un groupe public. Une petite icône de planète est affichée à côté du nom.
+### Groupes publics
+Ces groupes sont ouverts à tous et leur contenu est public. Tout le monde peut créer un compte sur l'instance et rejoindre un groupe public. Une petite icône de planète est affichée à côté du nom du groupe.
 
-### Les groupes privés
-Ces groupes sont sur invitation uniquement et leur contenu n'est pas public. Seul est visible la pag de présentation du groupe (comprenant la photo du groupe et le texte de description). Si le groupe autorise les utilisateurs à candidater, un onglet permet de le faire. Une petite icône de cadenas est affichée à côté du nom.
+### Groupes privés
+Ces groupes ne sont accessibles que sur invitation et leur contenu n'est pas public. Seule la page de présentation du groupe (y compris la photo du groupe et le texte de description) est visible. Si le groupe autorise les utilisateurs à poser leur candidature, un onglet leur permet de le faire. Une petite icône de cadenas est affichée à côté du nom.
 
-### Les groupes secrets
-Ces groupes sont totalement invisibles pour celles et ceux qui n'en connaissent pas l'existence. Si vous n'êtes pas invité à un tel groupe vous n'y avez pas accès. Une petite icône d'oeuil barré est affichée à côté du nom.
+### Groupes secrets
+Ces groupes sont totalement invisibles pour ceux qui n'en connaissent pas l'existence. Si vous n'avez pas été invité à en faire partie, vous n'y aurez pas accès. Une petite icône représentant un œil barré s'affiche à côté du nom.
 
-
-NOTE: Les prochaines versions d'Agorakit pourraient inclure un contrôle plus granulaire des types de groupes et de l'accès aux membres. Votre contribution est précieuse pour améliorer cette partie.
-
+! !! note
+    Les prochaines versions d'Agorakit pourraient inclure un contrôle plus granulaire des types de groupes et de l'accès des membres. Votre contribution est précieuse pour améliorer cette partie.
 
 ## Paramètres du groupe
 Si vous êtes administrateur d'un groupe, vous aurez un onglet "admin" sur le(s) groupe(s) que vous gérez. Vous pouvez y gérer beaucoup de choses dans votre groupe.
@@ -31,7 +30,8 @@ Ce menu vous permet de choisir la stratégie de marquage que vous souhaitez pour
 - Balisage libre : tout le monde peut baliser le contenu avec n'importe quelle étiquette.
 - Tagging contrôlé : vous décidez quels tags sont autorisés dans votre groupe.
 
-NOTE: Bien que le balisage libre soit agréable, il est souvent préférable de se fixer ensemble un ensemble de balises et de s'y tenir dans votre groupe. "Moins c'est plus" et "chacun a une façon différente d'organiser le contenu, alors tenons-nous en à une seule façon de le faire".
+! !! note
+        Bien que le balisage libre soit agréable, il est souvent préférable de se fixer ensemble un ensemble de balises et de s'y tenir dans votre groupe. "Moins c'est plus" et "chacun a une façon différente d'organiser le contenu, alors tenons-nous en à une seule façon de le faire".
 
 Les administrateurs de groupe peuvent également définir des couleurs pour les balises. Les couleurs sont partagées entre les groupes.
 
