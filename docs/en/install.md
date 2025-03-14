@@ -7,6 +7,12 @@ NOTE: **Trying Agorakit without installation**
 
     Keep reading if you want to install an Agorakit instance on your own server.
 
+
+## Using Yunohost
+If you want a simplier to self-host Agorakit, you can use the [Yunohost](https://yunohost.org/) [package](https://apps.yunohost.org/app/agorakit)
+- Install Yunohost on a server
+- Install the Agorakit package
+
 ## Requirements
 
 You need a good web hosting provider that provides the following :
