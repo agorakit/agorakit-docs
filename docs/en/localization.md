@@ -26,3 +26,8 @@ There is an artisan command to detect new translations strings in code and views
 ## Sync with translation.io
 If you have access to the translation.io repository and want to sync translations, add your translation.io key in your .env file like this : `TRANSLATIONIO_KEY=xxxxx`
 Then run `artisan translation:sync`
+
+## The `./translate` script
+If you want to run the two steps (scan for new strings and sync with translation.io), you can simply run the `./translate` script located in the root of the project. It takes care of the two commands and should always be non destructive.
+
+It's also a good idea to always run it so the translation php and json arrays are stored in the exact same way and also ordered, that way we hopefully have clean git revision history.
