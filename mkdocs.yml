@@ -87,6 +87,7 @@ nav:
   - 'Contributing':
     - Introduction: contribute.md
     - Setup a development server : development.md
+    - Localization : localization.md
     - Useful artisan commands : artisan.md
     - Writing documentation : documentation.md
   - 'Contact and support':
