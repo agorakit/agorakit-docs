@@ -1,3 +1,13 @@
+# to use the translate script, you need a deepl api key
+# cp .env.example .env
+# put the key in .env
+# create a python venv : python -m venv ~/env
+# activate it : source ~/env/bin/activate
+# install requirements : pip install -r requirements.txt 
+# translate !
+# python translate.py
+
+
 import os
 import deepl
 from dotenv import load_dotenv
@@ -25,17 +35,17 @@ def translate_markdown_files(input_dir, output_dir, src_lang='en', dest_lang='fr
                 content = file.read()
 
             try:
-                # Traduire le contenu
+                # Translate the content using deepl api
                 result = translator.translate_text(content, source_lang=src_lang, target_lang=dest_lang)
                 translated = result.text
                 
-                # Vérifier si la réponse est valide
+                # Check we have a non empty reply
                 if translated:
                     with open(output_filepath, 'w', encoding='utf-8') as file:
                         file.write(translated)
                     print(f"Translated {filename} to {dest_lang}")
                 else:
-                    raise ValueError("La réponse de la traduction est vide ou mal formée.")
+                    raise ValueError("Empty response from translation service")
                     
             except Exception as e:
                 print(f"Failed to translate {filename}: {e}")
