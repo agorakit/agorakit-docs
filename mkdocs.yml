@@ -67,28 +67,24 @@ watch:
   - includes
 
 
-
-
-
 nav:
-  - What is Agorakit?: index.md
-  - 'Using Agorakit': 
+  - Introduction: index.md
+  - Running Agorakit:
+    - Installation: install.md
+    - Getting Started: first_steps.md
+    - Configuration: advanced_config.md
+    - Upgrading: upgrade.md
+  - Using Agorakit:
     - Signing up: sign_up.md
-    - First steps after install : first_steps.md
-    - Creating & managing a group : group.md
-    - Using Agorakit : usage.md
-    - Using tags : tags.md
-    - Users : users.md
-    - Deleting content : delete_content.md
-  - 'Running Agorakit':
-    - Installation : install.md
-    - Advanced configurations : advanced_config.md
-    - Upgrading : upgrade.md
-  - 'Contributing':
-    - Introduction: contribute.md
-    - Setup a development server : development.md
-    - Localization : localization.md
-    - Useful artisan commands : artisan.md
-    - Writing documentation : documentation.md
-  - 'Contact and support':
-    - How to contact us : contact.md
+    - Managing groups: group.md
+    - Basic usage: usage.md
+    - Using tags: tags.md
+    - Users: users.md
+    - Deleting content: delete_content.md
+  - Contributing:
+    - How to contribute: contribute.md
+    - Socumentation: documentation.md
+    - Localization: localization.md
+    - Local development: development.md
+    - Useful commands: artisan.md
+  - Contact Us: contact.md
