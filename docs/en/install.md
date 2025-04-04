@@ -9,28 +9,25 @@ NOTE: **Trying Agorakit without installation**
 
 
 ## Using Yunohost
-If you want a simplier to self-host Agorakit, you can use the [Yunohost](https://yunohost.org/) [package](https://apps.yunohost.org/app/agorakit)
+If you want a simpler to self-host Agorakit, you can use the [Yunohost](https://yunohost.org/) [package](https://apps.yunohost.org/app/agorakit)
 - Install Yunohost on a server
 - Install the Agorakit package
 
 ## Requirements
+You need a good web hosting provider that provides the following:
 
-You need a good web hosting provider that provides the following :
-
-- php >= 8 with the usual extensions
-- Mysql or MariaDb or SQlite
+- PHP >= 8 with the usual extensions
+- MySQL or MariaDB or Sqlite
 - Composer
-- Git
-- the ability to run cron jobs
-- ssh access
+- git
+- crontab access
+- SSH access
 
 NOTE: All those features together are hard to find, so people are obliged to use a VPS and setup everything themselves. This is a riskier proposal if you don't know how it works. We have been very successful with [Alwaysdata](https://www.alwaysdata.com) shared hosting. By the way they host at a reduced fee [the free instance of Agorakit](https://app.agorakit.org).
 
-
 ## Install
-
 Currently, you need to know how to install a Laravel application using the command line.
-This is perfectly standard and documented here : https://laravel.com/docs/master/installation.
+This is perfectly standard and documented here: https://laravel.com/docs/master/installation.
 
 ### Clone the repository
 
@@ -43,13 +40,12 @@ All settings are stored in a .env file. This file is not provided in the Git rep
 
 Create and edit the configuration file from the example file provided:
 
-
     cp .env.example .env
     nano .env
 
 Nano is a simple text editor available on most servers. Feel free to use something else to edit your .env file.
 
-### Setup your database credentials
+### Setup database credentials
 
 NOTE: You need to set at least your database credentials & site name. Check that your database exists and is reachable with those credentials.
 
@@ -95,14 +91,11 @@ TIP: You need a working email server to be able to verify any registered user ac
 
 
 ### Install the packages
-
 Download all the packages needed:
 
 ```
 composer install
 ```
-
-
 
 ### Generate a key
 
@@ -112,9 +105,7 @@ php artisan key:generate
 
 This is a very important step since the key is used to generate various tokens and sessions.
 
-
 ### Create the tables in the DB
-
 Migrate (create all tables in) the database:
 
 ```
@@ -122,15 +113,13 @@ php artisan migrate
 ```
 
 ### Link file storage
-
 Link the storage public folder to the user visible public folder:
 
 ```
 php artisan storage:link
 ```
 
-### Create dummy content 
-
+### Create dummy content
 (Optional) Create sample content the database:
 
 ```
@@ -142,20 +131,15 @@ php artisan db:seed
 
 
 ## Setup your web server
-
 You can now setup your web server to serve the `/public` directory. This is very important, since you don't want to expose the rest of the directories (for example you DON'T want to expose your .env file!)
 
-
 ## Setup a cron job
-
 A cron job is a task your server runs at specific intervals to run stuff in the background.
 
-Agorakit needs to periodically do some tasks, like sending email summaries, celaning the DB, remove old versions of content, delete old files, etc...
+Agorakit needs to periodically do some tasks, like sending email summaries, cleaning the DB, remove old versions of content, delete old files, etc...
 
 The script `php artisan schedule:run` should be run at least every 5 minutes using a cron job.
 
 Follow Laravel cron documentation here : https://laravel.com/docs/master/scheduling
 
-
-NOTE: Without cron job your application will **NOT** send summaries, clean the DB, remind users of upcoming events, etc. Cron jobs are required for correct opperation.
-
+NOTE: Without cron job your application will **NOT** send summaries, clean the DB, remind users of upcoming events, etc. Cron jobs are required for correct operation.

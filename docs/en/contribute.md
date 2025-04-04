@@ -1,34 +1,44 @@
-You'd like to contribute to Agorakit? Thank you! 
-There are many ways to contribute. 
-Whether you have an hour a day or an hour a month, help is really appreciated!
+You'd like to contribute to Agorakit? There are many ways! This list starts with the simplest and gets increasingly complex.
 
-## Communication
-- Talk about the project to people who might need it
-- Add or improve translations
-- Write end-users documentation
+Whether you have an hour a day or an hour a month, help is really appreciated, thank you! Please drop a line to info (at) agorakit.org if you are interested or have any question.
 
-## Technical Support
-- Install it for non-technical folks
-- Improve the [website](https://github.com/agorakit/agorakit-website)
-- Support existing users on the [Agorakit shared server](https://app.agorakit.org)
-- Support folks with technical [issues](https://github.com/agorakit/agorakit/issues) to help define bugs.
-- Send an email if you use the tool or are considering it. We love feedback! (info (at) agorakit.org)
-
-## Developers
-- Check out [open issues](https://github.com/agorakit/agorakit/issues) and [projects to initiate](https://github.com/agorakit/agorakit/blob/main/ROADMAP.md). We use [trunk-based development](https://trunkbaseddevelopment.com/).
-- Backend developers with Laravel experience: add new features, fix bug, write tests, document everything. I happily accept pull requests if they pass unit tests and follow the project philosophy.
-- Frontend developers with Laravel experience: Help make the UI brilliant. Fix UX as you see fit. I happily accept pull requests if they pass unit tests and follow the project philosophy. We don't want the project to become a one-page app powered by the latest "à la mode" Javascript framework.
-- Let's talk in the issue queue first if your idea involves big changes. Create a new issue if you want to discuss something in the roadmap. 
-- Want to propose a change to the [roadmap](https://github.com/agorakit/agorakit/blob/main/ROADMAP.md)? Create a pull request to solicit comments.
+## Spread the word
+- Talk about the project to people who might need it!
+- Star the GitHub repository.
+- Link to the [website](https://agorakit.org/en/) from yours.
 
 ## Sponsorship
-- Consider [donating](https://agorakit.org/en/support.php) to help me work on it.
-- Help me find ways to financially support the project (sponsorship, public subsidies, etc.)
-- Financial support is critical to offering a free hosted version for groups that can't afford to pay.
+- Consider [donating](https://agorakit.org/en/support.php) to help us work on it and host a free instance.
+- Help find ways to financially support the project, like applying for a grant.
 
-## Licence
-All work is open source under the AGPLv3. 
-That means _anyone_ who improves the project must make the changes open source as well.
-We already have thousands of users who might benefit from your help. 
+## Translations
+- Add missing translations.
+- Improve existing translations.
+- Add support for a new language.
 
-Please drop a line to info (at) agorakit.org if you are interested or have any question.
+## Improve communication
+- Tell us what's confusing you! Just file an issue.
+- Update our [user documentation](https://github.com/agorakit/agorakit-docs).
+- Suggest an improvement to the [website](https://github.com/agorakit/agorakit-website).
+- Tell us how you're using Agorakit (or considering it) via [discussion](https://app.agorakit.org) or email! We love feedback!
+
+## Provide technical support
+- Install it for non-technical folks.
+- Support existing users on the [Agorakit shared server](https://app.agorakit.org)
+- Support folks with technical [issues](https://github.com/agorakit/agorakit/issues) to help define bugs.
+
+## Manual testing & auditing
+- See if you can find any broken features and report it!
+- Know about accessibility? Audit a page and tell us how we could improve.
+- Know about security? Audit how a feature works and report any flaws.
+- Know about UX? Make suggestions about how we could make it easier to use.
+
+## Improve quality
+- Find a bug in the [open issues](https://github.com/agorakit/agorakit/issues) and submit a pull request.
+- Add automated test coverage.
+
+## Improve or add a feature
+1. Align with the team on goals in a [discussion](https://app.agorakit.org).
+1. Start with acceptance criteria and implementation notes in an issue.
+1. Solicit feedback on the issue and discuss alternatives.
+1. Submit a pull request that references a complete issue & explains choices made.
