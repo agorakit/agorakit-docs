@@ -83,7 +83,7 @@ nav:
     - Deleting content: delete_content.md
   - Contributing:
     - How to contribute: contribute.md
-    - Socumentation: documentation.md
+    - Documentation: documentation.md
     - Localization: localization.md
     - Local development: development.md
     - Useful commands: artisan.md
