@@ -1,6 +1,7 @@
 # Contributing code to Agorakit
+Agorakit is a PHP application using the Laravel framework. We use Agorakit to [discuss the roadmap](https://app.agorakit.org/groups/2014/discussions/18470).
 
-- Propose and discuss changes in the issue queue first!
+- Propose & discuss changes on the [community](https://app.agorakit.org/groups/2014) _before_ coding!
 - Verify the licence (AGPLv2) fits your needs.
 - Follow Laravel best practices.
 - We use [Unpoly](https://unpoly.com/) for SPA-like functionality.
