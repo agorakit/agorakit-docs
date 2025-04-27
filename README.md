@@ -17,6 +17,8 @@ From the root of this repo, start the built-in webserver to preview your work on
 
 You should now be able to view the docs at: `http://127.0.0.1:8000/` (paste it in your browser).
 
+To stop serving, use `Ctrl + C` or close the Terminal window. To restart, just use `mkdocs serve` again.
+
 ### Troubleshooting
 
 #### command not found: mkdocs
