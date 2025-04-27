@@ -4,7 +4,7 @@ Agorakit is proudly a hypermedia app. We use PHP with Laravel and follows its be
     Verify the [AGPLv3](https://www.fsf.org/bulletin/2021/fall/the-fundamentals-of-the-agplv3) licence fits your needs.
 
 !!! warning
-    **Before coding:** Review the [roadmap](https://app.agorakit.org/groups/2014/discussions/18470), then propose & discuss changes on the [community](https://app.agorakit.org/groups/2014)
+    **Before coding:** Review the [roadmap](https://app.agorakit.org/groups/2014/discussions/18470), then propose & discuss changes on the [community](https://app.agorakit.org/groups/2014).
 
 ## Quality tools
 To maintain code quality, we use:
@@ -37,9 +37,9 @@ Skipping these steps wastes other peoples' time. Everyone should always do them 
 1. Write descriptive **titles in the [imperative mood](https://grammar.collinsdictionary.com/us/easy-learning/the-imperative)** (e.g. "Fix the thing", "Update the widget"). _If this is difficult, the PR may be too broad_.
 1. **Cross-reference** ALL related PRs, issues, discussions, or docs with a link.
 1. Verify:
-   1. **Target** branch (usually `main`).
-   1. **Code diff** is what you intended.
-   1. **Quality checks pass** in the CI pipeline.
+    1. **Target** branch (usually `main`).
+    1. **Code diff** is what you intended.
+    1. **Quality checks pass** in the CI pipeline.
 1. If not immediately ready for review, **make it a draft**.
 
 ### Advanced pull request authoring
