@@ -1,5 +1,4 @@
-# Useful artisan commands
-
+## Artisan commands
 Agorakit provides some useful [artisan](https://laravel.com/docs/7.x/artisan) commands :
 
 - `agorakit:checkmailbox`             Check the configured email imap server to allow post by email functionality
