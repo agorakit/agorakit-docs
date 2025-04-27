@@ -26,3 +26,55 @@ To stay aligned on how we achieve our mission, Agorakit subscribes to these core
 5. The open Web is critical to the future of humanity and is best supported through standards-based interoperability, strong data privacy, and platform transferability.
 
 For more information, see the [community discussion](https://app.agorakit.org/groups/2014/discussions/18471).
+
+## Features Overview
+
+### Groups
+- Create an unlimited amount of groups
+- Each group can be open (anyone can join) or private (invite-only)
+- Each group has a discussion list, calendar, map, file repository, and member list
+- Content is public in public groups and private in private groups
+
+### Discussions
+- Create discussion topics & reply with comments
+- Mention others in comments using @name (they get notified)
+- Mention files using f: (autocomplete opens)
+- Mention other discussions using d: (autocomplete opens)
+
+### Calendar
+- Global and per group calendars with RSS & iCal feeds
+- List upcoming events as a list or as a dynamic calendar
+- Show geolocalized events on a map
+- Embed elsewhere using iframes
+
+### Files
+- Upload & tag many files at once
+- Quick search among files by author, filename, and tags
+- Mention files in comments
+
+### Members
+- Access a list of members (global / per group)
+- Contact others without leaking your/their email (privacy)
+- Check what others are up to (activity feed)
+- Fill your profile with portrait, bio, address (if you want)
+
+### Notifications / emails
+- Choose how often you want to be notified per group (from hourly for the hardcore up to monthly to keep your mailbox cool)
+- Auto-login from "Reply" links (great time saving)
+- Instant notifications when someone mentions you (for urgent matters)
+
+### Admin
+- Get stats on everything
+- Mass-invite new members via email
+- Mass-add existing members to groups
+
+### Architecture
+- Standard Laravel application - anyone who knows Laravel can work with Agorakit easily
+- Simple hypermedia page loading, not single page app complexities
+- Bootstrap-based UI
+- Simple security model, database schema, & file storage scheme
+
+### Privacy
+- Your data is yours, host it where you want
+- Geolocalization is opt-in and obscured by ~100 meters
+- Open source you can study and trust
