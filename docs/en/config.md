@@ -1,5 +1,13 @@
-## Inbound emails
+If you just installed Agorakit, take some time to configure it correctly for your use case.
 
+## Homepage introduction text 
+Set an intro text on the homepage for newcomers : go to the admin page from your user profile dropdown.
+Using the editor you can add external images and whatever you want.
+
+## Check all the admin settings
+Go to the admin menu (from your user profile dropdown) and check all the settings there. Pay attention to the various permissions and group types you allow on your server.
+
+## Inbound emails
 This additional step allows you to have one mailbox for each group so members can post by email to create discussions and reply to discussions emails to create new comments.
 
 !!! note
@@ -22,7 +30,6 @@ INBOX_USERNAME=username of the mailbox
 INBOX_PASSWORD=password of the mailbox
 INBOX_PREFIX=
 INBOX_SUFFIX=@agora.example.org
-
 ```
 
 ### Defining prefixes and suffixes

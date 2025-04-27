@@ -69,10 +69,9 @@ watch:
 
 nav:
   - Introduction: index.md
-  - Running Agorakit:
+  - Technical Setup:
     - Installation: install.md
-    - Getting Started: first_steps.md
-    - Configuration: advanced_config.md
+    - Configuration: config.md
     - Upgrading: upgrade.md
   - Using Agorakit:
     - Signing up: sign_up.md
@@ -85,6 +84,9 @@ nav:
     - How to contribute: contribute.md
     - Documentation: documentation.md
     - Localization: localization.md
-    - Local development: development.md
+  - Development:
+    - Development overview: development.md
+    - Localhost setup: localhost.md
+    - Testing: testing.md
     - Useful commands: artisan.md
   - Contact Us: contact.md
