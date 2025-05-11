@@ -57,4 +57,4 @@ How in-depth you discuss each of these items in a pull request will vary greatly
 
 ## AI coding assistance
 
-At this time, we have not seen evidence that AI is capable of producing [code reviews as requested above](#advanced-pull-request-authoring). Therefore, we strongly discourage the use of AI in code contributions to this project unless under the careful supervision of a senior software engineer with sufficient experience to revise & contextualize its assistance. We will close pull requests that appear to have been primarily generated with generative AI tools due to requiring exessive review time.
+At this time, we have not seen evidence that AI is capable of producing [code reviews as requested above](#advanced-pull-request-authoring). Therefore, we strongly discourage the use of AI in code contributions to this project unless under the careful supervision of a senior software engineer with sufficient experience to revise & contextualize its assistance. We will close pull requests that appear to have been primarily created with generative AI tools due to requiring excessive review time.
