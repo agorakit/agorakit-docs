@@ -66,7 +66,8 @@ Use Docker Desktop's UI to stop the containers or:
 
 - Stop the containers: `docker compose -f compose.dev.yml stop`
 - Rebuild the containers: `docker compose -f compose.dev.yml build --no-cache`
-- Shell into the dev box when it's already running: `docker exec -it agorakit-dev bash`
+- Shell into the dev box when it's already running: `./bin/dev-connect.sh`
+  - Alias for: `docker exec -it agorakit-dev bash`
 
 It is safe to re-run `./dev-init.sh` any time to rebuild the containers & shell in.
 On first run, it will create `.env.dev` and generate the Laravel `APP_KEY`.
