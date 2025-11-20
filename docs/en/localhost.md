@@ -10,7 +10,7 @@ Agorakit provides a development environment Docker image running:
 
 ## Setup & Run Docker
 - Install Docker Desktop on [Mac](https://docs.docker.com/desktop/setup/install/mac-install/), [Windows](https://docs.docker.com/desktop/setup/install/windows-install/), or [Linux](https://docs.docker.com/desktop/setup/install/linux/).
-- From the repo root, run: `./dev-init.sh`
+- From the repo root, run: `./bin/dev-init.sh`
 
 The containers may take a moment to build.
 If all goes well, it should **immediately connect you to the shell** on the dev instance (in `/app`).
@@ -53,7 +53,7 @@ Use the browser extension to enable it and trigger a connection when navigating 
 In your **browser**, visit `http://localhost` or `https://localhost` (accepting the local self-signed certificate).
 
 ### Shell access
-From the **CLI**, run `./bash.sh`. You will land in the app root and can run `php artisan` commands or Composer.
+From the **CLI**, run `./bin/dev-connect.sh`. You will land in the app root and can run `php artisan` commands or Composer.
 
 ### Database access
 **Phpmyadmin** is on port 8080 (`http://localhost:8080`).
