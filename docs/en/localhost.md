@@ -20,7 +20,7 @@ You can now access the app on localhost (on HTTPS, accept the browser exception 
 
 ## Connect PHPStorm to Docker
 
-# Daemon
+### Daemon
 Make sure Docker is running, then in PHPStorm:
 
 * File -> Settings... -> Build, Execution, Deployment -> Docker -> '+' (middle column)
