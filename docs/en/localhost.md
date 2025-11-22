@@ -16,7 +16,24 @@ The containers may take a moment to build.
 If all goes well, it should **immediately connect you to the shell** on the dev instance (in `/app`).
 
 That's it!  The copy of the code there is mounted to your code repo — it's the same files!
-You can now access the app on localhost (on HTTPS, accept the browser exception for self-signed certificate).
+You can now access the app on localhost. If HTTPS throws a warning, see below.
+
+## Trust Caddy's CA
+To use HTTPS you'll want to [add the CA certificate to your browser](https://docs.docker.com/engine/network/ca-certs/).
+
+### MacOS Safari
+1. Open the Keychain Access app.
+1. In Keychain Access, select System, then switch to the Certificates tab.
+1. Drag-and-drop `./.docker/dev/root.crt` into the list of certificates. Enter your password if prompted.
+1. Find the newly added certificate, double-click it, and expand the Trust section.
+1. Set Always Trust for the certificate. Enter your password if prompted.
+
+### MacOS Firefox
+1. Copy `./.docker/dev/root.crt` to your Desktop (Firefox cannot find it in a dot folder).
+1. Open Firefox's Settings -> Privacy & Security.
+2. Find **Certificates** and select "View Certificates >".
+3. On the **Authorities** tab, select the "Import..." button and select your copy of `root.crt`.
+5. In the popup, check "Trust this CA to identify websites." and select OK, then OK again.
 
 ## Connect PHPStorm to Docker
 
